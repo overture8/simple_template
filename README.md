@@ -6,7 +6,7 @@ Very simple template language for text output.
 Usage
 =====
 
-     irb -rubygems
+     $ irb -rubygems
      irb> require 'simple_template'
      irb> SimpleTemplate::Renderer.parse("Hello %{name}", { :name => 'Phil' })
      => "Hello Phil"
